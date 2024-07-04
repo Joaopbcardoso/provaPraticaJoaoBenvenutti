@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CCCCCC;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 2px 1px #005CA7;
+  padding: 20px;
+  && h2{
+    font-size: 20px;
+    margin: 20px;
+  }
+  && img{
+    margin: 20px;
+    width: 150px;
+  }
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clubes{
+  display: flex;
+  padding: 20px;
+  background-color: #005CA7;
+  margin: 20px;
+  width: 200px;
+  border-radius: 5%;
+  height: 50%;
+  box-shadow: 1px 2px 1px 2px;
+  transition: 1s;
+  && img{
+    margin-right: 20px;
+  }
+}
+
+.clubes:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
