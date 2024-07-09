@@ -25,6 +25,7 @@ export default function Clubs() {
                     <div className="name">
                         <h3>{club.nome}</h3>
                         <p>{club.apelido}</p>
+                        <Link to={`/player/${club.id}`}>Ver Jogadores</Link>
                     </div>
                 </div>
             ))}
